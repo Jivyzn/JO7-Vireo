@@ -1,0 +1,10 @@
+# User-space dependencies. HailoRT, PyGObject/GStreamer and lgpio are normally
+# installed through Raspberry Pi OS / Hailo system packages.
+vosk>=0.3.45,<0.4
+sounddevice>=0.4.6,<1
+soundfile>=0.12,<1
+simpleaudio>=1.0.4,<2
+
+# Optional high-quality local TTS used by the original prototype.
+# Install separately if desired because it is large:
+# TTS>=0.22,<1

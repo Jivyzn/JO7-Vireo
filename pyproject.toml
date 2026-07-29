@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "j07-vireo"
+version = "1.0.0"
+description = "Offline edge-AI assistive navigation research prototype for Raspberry Pi 5 and Hailo"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "AGPL-3.0-or-later"}
+authors = [{name = "Jivesh Ramnath"}]
+keywords = [
+  "assistive-technology",
+  "computer-vision",
+  "edge-ai",
+  "hailo",
+  "raspberry-pi",
+  "vosk",
+  "accessibility",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+vireo-assistant = "vireo.assistant:main"
+vireo-servo = "vireo.servo_voice_control:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Environment / secrets
+.env
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime output
+*.log
+logs/
+cache/
+audio_cache/
+assets/detection_audio/*.wav
+!assets/detection_audio/README.txt
+
+# Model-development output
+runs/
+wandb/
+checkpoints/
+datasets/
+data/raw/
+*.pt
+*.onnx
+*.har
+
+# Keep the deployable model tracked.
+!models/yolov8m.hef

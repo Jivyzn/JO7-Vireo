@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use JØ7 VIREO in research, education, or a derivative prototype, please cite this software."
+title: "JØ7 VIREO: A Low-Cost Offline Edge-AI Assistive Navigation Prototype"
+type: software
+authors:
+  - family-names: Ramnath
+    given-names: Jivesh
+version: 1.0.0
+date-released: 2026-07-29
+license: AGPL-3.0-or-later
+repository-code: "https://github.com/Jivyzn/J07-VIREO"
+keywords:
+  - assistive technology
+  - computer vision
+  - edge AI
+  - Raspberry Pi
+  - Hailo
+  - accessibility
+abstract: >-
+  JØ7 VIREO is an offline assistive-navigation research prototype combining
+  Hailo-accelerated object detection, local speech recognition, audio feedback,
+  a voice-controlled camera servo, and an independent directional haptic belt.

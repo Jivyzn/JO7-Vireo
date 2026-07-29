@@ -1,0 +1,45 @@
+name: Bug report
+description: Report reproducible software or hardware-integration behaviour
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include passwords, keys, private recordings or participant data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: Raspberry Pi model, OS, kernel, Python version
+    validations:
+      required: true
+  - type: input
+    id: hailo
+    attributes:
+      label: Hailo hardware and software versions
+      placeholder: Accelerator, HailoRT, examples/app-infra version
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      render: shell
+  - type: dropdown
+    id: safety
+    attributes:
+      label: Could this affect physical safety, privacy or battery/electrical behaviour?
+      options: ["No", "Possibly", "Yes"]
+    validations:
+      required: true
