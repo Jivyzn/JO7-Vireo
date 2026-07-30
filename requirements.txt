@@ -2,7 +2,7 @@
 # installed through Raspberry Pi OS / Hailo system packages.
 vosk>=0.3.45,<0.4
 sounddevice>=0.4.6,<1
-soundfile>=0.12,<1
+soundfile>=0.14.0,<1
 simpleaudio>=1.0.4,<2
 
 # Optional high-quality local TTS used by the original prototype.
