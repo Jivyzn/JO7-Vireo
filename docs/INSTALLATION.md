@@ -137,7 +137,7 @@ A systemd service is not enabled automatically because microphones, desktop audi
 
 ```ini
 [Unit]
-Description=J07 VIREO Assistant
+Description=JØ7 Vireo Assistant
 After=network.target sound.target
 
 [Service]

@@ -275,7 +275,7 @@ CI verifies syntax, style and pure state/parsing logic. It cannot validate the C
 - [Roadmap](ROADMAP.md)
 - [Public recognition](docs/RECOGNITION.md)
 - [Project history](docs/PROJECT_HISTORY.md)
-- [2026 research report](docs/reports/J07_VIREO_Research_Report_2026.docx)
+- [2026 research report](docs/reports/JØ7_Vireo_Research_Report_2026.docx)
 - [GitHub deployment](docs/GITHUB_DEPLOYMENT.md)
 - [Release validation](docs/VALIDATION.md)
 

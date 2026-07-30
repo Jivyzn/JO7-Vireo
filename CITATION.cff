@@ -5,8 +5,8 @@ type: software
 authors:
   - family-names: Ramnath
     given-names: Jivesh
-version: 1.0.0
-date-released: 2026-07-29
+version: 1.0.2
+date-released: 2026-07-30
 license: AGPL-3.0-or-later
 repository-code: "https://github.com/Jivyzn/J07-VIREO"
 keywords:

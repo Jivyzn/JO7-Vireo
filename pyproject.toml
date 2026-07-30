@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "j07-vireo"
-version = "1.0.0"
+version = "1.0.2"
 description = "Offline edge-AI assistive navigation research prototype for Raspberry Pi 5 and Hailo"
 readme = "README.md"
 requires-python = ">=3.10,<3.13"

@@ -33,7 +33,7 @@ From the extracted folder:
 git init
 git branch -M main
 git add .
-git commit -m "Release J07 VIREO v1.0.0"
+git commit -m "Release JØ7 Vireo v1.0.0"
 git remote add origin https://github.com/Jivyzn/J07-VIREO.git
 git push -u origin main
 ```
