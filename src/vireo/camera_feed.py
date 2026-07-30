@@ -26,8 +26,8 @@ import simpleaudio as sa  # noqa: E402
 from hailo_apps_infra.detection_pipeline import GStreamerDetectionApp  # noqa: E402
 from hailo_apps_infra.hailo_rpi_common import app_callback_class  # noqa: E402
 
-from .config import DetectionConfig
-from .detection_state import Detection, DetectionState
+from .config import DetectionConfig  # noqa: E402
+from .detection_state import Detection, DetectionState  # noqa: E402
 
 CONFIG = DetectionConfig.from_env()
 STATE = DetectionState(absence_threshold=CONFIG.absence_threshold)
