@@ -1,6 +1,6 @@
 <div align="center">
 
-# JØ7 VIREO
+# JØ7 Vireo
 
 ### Offline edge-AI navigation assistance for blind and visually impaired users
 
@@ -119,7 +119,7 @@ Required hardware:
 ### 2. Clone and install
 
 ```bash
-git clone https://github.com/Jivyzn/J07-VIREO.git
+git clone https://github.com/Jivyzn/JO7-Vireo.git
 cd J07-VIREO
 chmod +x scripts/*.sh
 ./scripts/install_pi.sh

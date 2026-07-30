@@ -38,7 +38,7 @@ The VIREO launcher sources `setup_env.sh` and then imports `hailo_apps_infra`.
 ## 3. Clone VIREO
 
 ```bash
-git clone https://github.com/Jivyzn/J07-VIREO.git
+git clone https://github.com/Jivyzn/JO7-Vireo.git
 cd J07-VIREO
 chmod +x scripts/*.sh
 ```

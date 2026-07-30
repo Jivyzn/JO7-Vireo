@@ -34,7 +34,7 @@ git init
 git branch -M main
 git add .
 git commit -m "Release JØ7 Vireo v1.0.0"
-git remote add origin https://github.com/Jivyzn/J07-VIREO.git
+git remote add origin https://github.com/Jivyzn/JO7-Vireo.git
 git push -u origin main
 ```
 
