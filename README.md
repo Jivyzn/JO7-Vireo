@@ -78,6 +78,7 @@ flowchart LR
 | Capability | Current open-source implementation |
 |---|---|
 | Object detection | Hailo/GStreamer callback using the included `yolov8m.hef` |
+| Recorded training corpus | 86,000 images (author-confirmed project total; dataset not redistributed) |
 | Offline speech recognition | Vosk small US-English model |
 | Object announcements | Personal WAV files when present; eSpeak fallback otherwise |
 | Voice assistant | Fixed offline intents plus optional Ollama fallback |
@@ -89,7 +90,7 @@ flowchart LR
 ## Repository layout
 
 ```text
-J07-VIREO/
+JO7-Vireo/
 ├── src/vireo/                    Python application package
 ├── firmware/                     ESP32 belt and RP2040 prototype firmware
 ├── scripts/                      Installation, launch and verification scripts
@@ -120,7 +121,7 @@ Required hardware:
 
 ```bash
 git clone https://github.com/Jivyzn/JO7-Vireo.git
-cd J07-VIREO
+cd JO7-Vireo
 chmod +x scripts/*.sh
 ./scripts/install_pi.sh
 ```
@@ -225,6 +226,8 @@ Additional reported system measurements:
 | Raspberry Pi peak temperature at ~25 °C ambient | ~54 °C after cooling improvements |
 
 These are **author-reported prototype results**, not independently reproduced benchmarks. The source reports also differ on whether the controlled detection protocol contained 80 or 100 target instances. For that reason, the percentages are not presented as COCO mAP or as a clinical safety claim. Read [docs/PERFORMANCE.md](docs/PERFORMANCE.md) before comparing them with other systems.
+
+The project author has standardised the recorded training-corpus total to **86,000 images**. The original image archive and immutable split manifests are not redistributed, so this figure documents the project record rather than a reproducible public dataset release. See [docs/DATASET.md](docs/DATASET.md).
 
 ![Reported model accuracy progression](assets/images/model-accuracy-progression.png)
 

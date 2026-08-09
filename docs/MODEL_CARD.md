@@ -36,9 +36,9 @@ PyTorch (.pt) → ONNX → Hailo archive (.har) → quantised HEF
 
 ![HEF conversion](../assets/images/hef-conversion.jpg)
 
-## Dataset uncertainty
+## Dataset record and reproducibility
 
-The reports describe COCO classes and locally captured examples, but the records conflict on total images, class counts and test-set size. The original dataset, exact split manifests, calibration set, YAML and final training logs were not supplied with this repository. The HEF is therefore deployable but not fully reproducible from source data in this release.
+The project author has standardised the recorded training corpus to **86,000 images**. The reports describe COCO classes and locally captured examples, but their class counts and test-set sizes still conflict. The original dataset, exact split manifests, calibration set, YAML and final training logs were not supplied with this repository. The HEF is therefore deployable but not fully reproducible from source data in this release.
 
 See [DATASET.md](DATASET.md).
 

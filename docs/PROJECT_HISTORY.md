@@ -25,4 +25,4 @@ This timeline combines the supplied project-development record with verified pub
 
 ## Provenance note
 
-Some report records conflict on exact dataset and benchmark counts. The repository preserves these discrepancies in the model, dataset and performance documentation instead of rewriting the history as if every artefact were available.
+The repository now uses the project author's confirmed **86,000-image** training-corpus total. Remaining report conflicts concerning exact class composition and benchmark counts are preserved in the model, dataset and performance documentation instead of rewriting the history as if every artefact were available.

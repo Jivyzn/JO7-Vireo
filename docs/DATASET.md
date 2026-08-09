@@ -10,17 +10,22 @@ The project reports describe a combination of:
 - random rotation, brightness changes, horizontal flips, crops and Gaussian noise;
 - a held-out validation split.
 
-## Unresolved inconsistencies
+## Canonical project record
 
-The supplied reports contain incompatible dataset descriptions, including references to:
+The project author has standardised the recorded training corpus to **86,000 images**. This is the canonical image total used across the public repository and portfolio. Earlier draft totals are superseded by this author-confirmed figure.
+
+The original dataset, manifest, export version, annotation archive, training YAML and reproducible split files were not supplied. The 86,000-image figure therefore documents the project record; it cannot be independently reconstructed from this repository alone.
+
+## Remaining unresolved inconsistencies
+
+The supplied reports still contain incompatible descriptions of class composition and evaluation, including references to:
 
 - approximately 80 locally curated images;
 - 80 COCO classes plus 20 additional classes;
 - 100 total classes;
-- 85,000 images with a 70/30 split;
 - controlled tests involving either 80 or 100 target instances.
 
-The original dataset, manifest, export version, annotation archive, training YAML and reproducible split files were not supplied. This repository does not silently choose one conflicting number as authoritative.
+These remaining discrepancies are preserved rather than silently rewritten as authoritative facts.
 
 ## Redistribution status
 
